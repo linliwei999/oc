@@ -10,7 +10,6 @@
 		2688A97B4B2D74B6EF1BBD97 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1189A2878C23E2957583CBB /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */; };
 		560131282966658000957D2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 560131272966658000957D2A /* AppDelegate.m */; };
 		5601312B2966658000957D2A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601312A2966658000957D2A /* SceneDelegate.m */; };
-		5601312E2966658000957D2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601312D2966658000957D2A /* ViewController.m */; };
 		560131312966658000957D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5601312F2966658000957D2A /* Main.storyboard */; };
 		560131332966658300957D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560131322966658300957D2A /* Assets.xcassets */; };
 		560131362966658300957D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560131342966658300957D2A /* LaunchScreen.storyboard */; };
@@ -18,6 +17,8 @@
 		560131432966658400957D2A /* MyCloudMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 560131422966658400957D2A /* MyCloudMusicTests.m */; };
 		5601314D2966658400957D2A /* MyCloudMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601314C2966658400957D2A /* MyCloudMusicUITests.m */; };
 		5601314F2966658400957D2A /* MyCloudMusicUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601314E2966658400957D2A /* MyCloudMusicUITestsLaunchTests.m */; };
+		563343732966B6850029C0C4 /* SplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563343722966B6850029C0C4 /* SplashController.m */; };
+		563343762966B89A0029C0C4 /* LoginHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563343752966B89A0029C0C4 /* LoginHomeController.m */; };
 		588DE4CA1AB0A3FF360942DB /* Pods_MyCloudMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CEF51BABBD54E1A468AEC /* Pods_MyCloudMusicTests.framework */; };
 		DB9071E5076E0AC1FFABE59F /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07014C4BF52DC4AD622343 /* Pods_MyCloudMusic.framework */; };
 /* End PBXBuildFile section */
@@ -49,8 +50,6 @@
 		560131272966658000957D2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		560131292966658000957D2A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		5601312A2966658000957D2A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		5601312C2966658000957D2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5601312D2966658000957D2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		560131302966658000957D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		560131322966658300957D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		560131352966658300957D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +60,10 @@
 		560131482966658400957D2A /* MyCloudMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCloudMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5601314C2966658400957D2A /* MyCloudMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCloudMusicUITests.m; sourceTree = "<group>"; };
 		5601314E2966658400957D2A /* MyCloudMusicUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCloudMusicUITestsLaunchTests.m; sourceTree = "<group>"; };
+		563343712966B6850029C0C4 /* SplashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashController.h; sourceTree = "<group>"; };
+		563343722966B6850029C0C4 /* SplashController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashController.m; sourceTree = "<group>"; };
+		563343742966B89A0029C0C4 /* LoginHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHomeController.h; sourceTree = "<group>"; };
+		563343752966B89A0029C0C4 /* LoginHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginHomeController.m; sourceTree = "<group>"; };
 		5D07014C4BF52DC4AD622343 /* Pods_MyCloudMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFEDBB163FE227BF2901D79 /* Pods-MyCloudMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusicTests.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusicTests/Pods-MyCloudMusicTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A03233EC0E42B19903B5221 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +109,6 @@
 				358404FB1DAEB56126F33E9F /* Pods-MyCloudMusicTests.debug.xcconfig */,
 				6CFEDBB163FE227BF2901D79 /* Pods-MyCloudMusicTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,12 +137,11 @@
 		560131252966658000957D2A /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				563343702966B6250029C0C4 /* Controller */,
 				560131262966658000957D2A /* AppDelegate.h */,
 				560131272966658000957D2A /* AppDelegate.m */,
 				560131292966658000957D2A /* SceneDelegate.h */,
 				5601312A2966658000957D2A /* SceneDelegate.m */,
-				5601312C2966658000957D2A /* ViewController.h */,
-				5601312D2966658000957D2A /* ViewController.m */,
 				5601312F2966658000957D2A /* Main.storyboard */,
 				560131322966658300957D2A /* Assets.xcassets */,
 				560131342966658300957D2A /* LaunchScreen.storyboard */,
@@ -165,6 +166,17 @@
 				5601314E2966658400957D2A /* MyCloudMusicUITestsLaunchTests.m */,
 			);
 			path = MyCloudMusicUITests;
+			sourceTree = "<group>";
+		};
+		563343702966B6250029C0C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				563343712966B6850029C0C4 /* SplashController.h */,
+				563343722966B6850029C0C4 /* SplashController.m */,
+				563343742966B89A0029C0C4 /* LoginHomeController.h */,
+				563343752966B89A0029C0C4 /* LoginHomeController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		70667F77265618F836F5C69E /* Frameworks */ = {
@@ -415,8 +427,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5601312E2966658000957D2A /* ViewController.m in Sources */,
 				560131282966658000957D2A /* AppDelegate.m in Sources */,
+				563343762966B89A0029C0C4 /* LoginHomeController.m in Sources */,
+				563343732966B6850029C0C4 /* SplashController.m in Sources */,
 				560131392966658300957D2A /* main.m in Sources */,
 				5601312B2966658000957D2A /* SceneDelegate.m in Sources */,
 			);

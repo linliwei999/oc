@@ -17,36 +17,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBanner" translatesAutoresizingMaskIntoConstraints="NO" id="rCP-S5-pyC">
-                                <rect key="frame" x="159" y="129" width="75" height="309"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1U7-Dg-Qzr" userLabel="Container">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBanner" translatesAutoresizingMaskIntoConstraints="NO" id="rCP-S5-pyC">
+                                        <rect key="frame" x="159" y="78" width="75" height="309"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="309" id="1Jr-Pu-XmF"/>
+                                            <constraint firstAttribute="width" constant="75" id="e6D-Lz-I67"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-9t-iCD">
+                                        <rect key="frame" x="102.66666666666669" y="667" width="188" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="188" id="JUe-tB-l9X"/>
+                                            <constraint firstAttribute="height" constant="31" id="Y7W-cd-Ghx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="crutppy @ 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEo-ZL-Teg">
+                                        <rect key="frame" x="135" y="718" width="123" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="309" id="1Jr-Pu-XmF"/>
-                                    <constraint firstAttribute="width" constant="75" id="e6D-Lz-I67"/>
+                                    <constraint firstItem="rCP-S5-pyC" firstAttribute="centerX" secondItem="1U7-Dg-Qzr" secondAttribute="centerX" id="Q6y-Bt-2JK"/>
+                                    <constraint firstItem="tEo-ZL-Teg" firstAttribute="centerX" secondItem="1U7-Dg-Qzr" secondAttribute="centerX" id="TeN-e6-tSS"/>
+                                    <constraint firstItem="tEo-ZL-Teg" firstAttribute="top" secondItem="Pec-9t-iCD" secondAttribute="bottom" constant="20" id="ZcM-Hk-hfg"/>
+                                    <constraint firstAttribute="bottom" secondItem="tEo-ZL-Teg" secondAttribute="bottom" constant="20" id="r6V-AN-CJX"/>
+                                    <constraint firstItem="Pec-9t-iCD" firstAttribute="top" secondItem="rCP-S5-pyC" secondAttribute="bottom" constant="280" id="vjj-Qp-E1k"/>
+                                    <constraint firstItem="Pec-9t-iCD" firstAttribute="centerX" secondItem="1U7-Dg-Qzr" secondAttribute="centerX" id="yyc-w9-5Vf"/>
                                 </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="crutppy @ 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEo-ZL-Teg">
-                                <rect key="frame" x="135" y="777" width="123" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-9t-iCD">
-                                <rect key="frame" x="102.66666666666669" y="726" width="188" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="188" id="JUe-tB-l9X"/>
-                                    <constraint firstAttribute="height" constant="31" id="Y7W-cd-Ghx"/>
-                                </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rCP-S5-pyC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0F3-6E-j4g"/>
-                            <constraint firstItem="tEo-ZL-Teg" firstAttribute="top" secondItem="Pec-9t-iCD" secondAttribute="bottom" constant="20" id="4ka-Qa-Gm7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rCP-S5-pyC" secondAttribute="bottom" constant="380" id="7dO-sU-1NR"/>
-                            <constraint firstItem="Pec-9t-iCD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ANP-cV-1lf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tEo-ZL-Teg" secondAttribute="bottom" constant="20" id="i6H-jn-IUD"/>
-                            <constraint firstItem="tEo-ZL-Teg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="win-iM-M7E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1U7-Dg-Qzr" secondAttribute="trailing" id="1T1-Rk-B0Z"/>
+                            <constraint firstItem="1U7-Dg-Qzr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M7r-fT-7T6"/>
+                            <constraint firstItem="1U7-Dg-Qzr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QgS-cf-XNm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1U7-Dg-Qzr" secondAttribute="bottom" id="zjf-oK-hCa"/>
                         </constraints>
                     </view>
                 </viewController>
