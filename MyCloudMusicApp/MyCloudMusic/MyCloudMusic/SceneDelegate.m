@@ -21,7 +21,7 @@
 }
 
 - (void)toLoginHome{
-    
+    [self setRootViewController:@"LoginHome"];
 }
 
 /// 设置跟控制器
@@ -34,8 +34,12 @@
     //所以说也可以说实例化了一个控制
     //只是这个过程是系统创建的
     //不是我们手动完成
-    UIViewController *target = [storyboard instantiateViewControllerWithIdentifier:data];
-    
+    UIViewController
+    *target = [storyboard instantiateViewControllerWithIdentifier: data];
+     
+    //替换掉原来的根控制器
+    //目的是，我们不希望用户还能返回到原来的界面
+    self.window.rootViewController = target;
 }
 
 
