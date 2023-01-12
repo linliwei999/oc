@@ -19,9 +19,9 @@
     UIScene *scene = [UIApplication.sharedApplication.connectedScenes allObjects][0];
     return scene.delegate;
 }
-
+    
 - (void)toLoginHome{
-    [self setRootViewController:@"LoginHome"];
+    [self setRootViewController:@"LoginHomeNav"];
 }
 
 /// 设置跟控制器
