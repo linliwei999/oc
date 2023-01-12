@@ -19,6 +19,7 @@
 		5601314F2966658400957D2A /* MyCloudMusicUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601314E2966658400957D2A /* MyCloudMusicUITestsLaunchTests.m */; };
 		563343732966B6850029C0C4 /* SplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563343722966B6850029C0C4 /* SplashController.m */; };
 		563343762966B89A0029C0C4 /* LoginHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563343752966B89A0029C0C4 /* LoginHomeController.m */; };
+		5655ECD92970086C008F6387 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655ECD82970086C008F6387 /* LoginController.m */; };
 		588DE4CA1AB0A3FF360942DB /* Pods_MyCloudMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CEF51BABBD54E1A468AEC /* Pods_MyCloudMusicTests.framework */; };
 		DB9071E5076E0AC1FFABE59F /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D07014C4BF52DC4AD622343 /* Pods_MyCloudMusic.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,8 @@
 		563343722966B6850029C0C4 /* SplashController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashController.m; sourceTree = "<group>"; };
 		563343742966B89A0029C0C4 /* LoginHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHomeController.h; sourceTree = "<group>"; };
 		563343752966B89A0029C0C4 /* LoginHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginHomeController.m; sourceTree = "<group>"; };
+		5655ECD72970086C008F6387 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		5655ECD82970086C008F6387 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		5D07014C4BF52DC4AD622343 /* Pods_MyCloudMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFEDBB163FE227BF2901D79 /* Pods-MyCloudMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusicTests.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusicTests/Pods-MyCloudMusicTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A03233EC0E42B19903B5221 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				563343722966B6850029C0C4 /* SplashController.m */,
 				563343742966B89A0029C0C4 /* LoginHomeController.h */,
 				563343752966B89A0029C0C4 /* LoginHomeController.m */,
+				5655ECD72970086C008F6387 /* LoginController.h */,
+				5655ECD82970086C008F6387 /* LoginController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -432,6 +437,7 @@
 				563343732966B6850029C0C4 /* SplashController.m in Sources */,
 				560131392966658300957D2A /* main.m in Sources */,
 				5601312B2966658000957D2A /* SceneDelegate.m in Sources */,
+				5655ECD92970086C008F6387 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
