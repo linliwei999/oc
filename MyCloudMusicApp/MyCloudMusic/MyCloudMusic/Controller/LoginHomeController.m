@@ -13,6 +13,7 @@
 
 /// 主按钮
 @property (weak, nonatomic) IBOutlet UIButton *primaryButton;
+@property (weak, nonatomic) IBOutlet UIButton *phoneLoginButton;
 
 @end
 
@@ -24,10 +25,18 @@
     
     // 圆角
     self.primaryButton.layer.cornerRadius = 21; // 可参考按钮高度的一般
+    self.phoneLoginButton.layer.cornerRadius = 21; // 可参考按钮高度的一般
     
     // 边框
     self.primaryButton.layer.borderColor = [UIColor colorNamed: @"Primary"].CGColor;
     self.primaryButton.layer.borderWidth = 1;
+}
+
+/// 手机号登录按钮
+/// - Parameter sender: <#sender description#>
+- (IBAction)phoneLoginButtonClick:(UIButton *)sender {
+    NSLog(@"LoginHomeController phoneLoginButtonClick");
+
 }
 
 

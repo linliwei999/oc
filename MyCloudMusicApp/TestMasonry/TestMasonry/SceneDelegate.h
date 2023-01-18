@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.h
-//  MyCloudMusic
+//  TestMasonry
 //
-//  Created by 林立伟 on 2023/1/5.
+//  Created by 林立伟 on 2023/1/18.
 //
 
 #import <UIKit/UIKit.h>
@@ -10,12 +10,6 @@
 @interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
 @property (strong, nonatomic) UIWindow * window;
-
-/// 获取单例对象
-+(instancetype) shared;
-
-/// 启动登录页
--(void)toLoginHome;
 
 @end
 

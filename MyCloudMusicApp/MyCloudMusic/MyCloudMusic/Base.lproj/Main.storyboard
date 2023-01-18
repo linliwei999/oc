@@ -97,6 +97,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="手机号登录">
                                                     <color key="baseBackgroundColor" red="0.83921568629999999" green="0.1529411765" blue="0.10980392160000001" alpha="1" colorSpace="deviceRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="phoneLoginButtonClick:" destination="ACh-VE-Ab8" eventType="touchUpInside" id="AXk-e6-5CV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LA-UC-pyC">
                                                 <rect key="frame" x="0.0" y="72" width="333" height="42"/>
@@ -169,6 +172,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="登录主界面" id="LPz-WM-wha"/>
                     <connections>
+                        <outlet property="phoneLoginButton" destination="JYn-VT-ybT" id="qTx-py-KBV"/>
                         <outlet property="primaryButton" destination="3LA-UC-pyC" id="gGL-cl-QHV"/>
                     </connections>
                 </viewController>
@@ -276,7 +280,7 @@
         <image name="SplashBanner" width="74.666664123535156" height="309"/>
         <image name="SplashLogo" width="188" height="31.666666030883789"/>
         <namedColor name="Primary">
-            <color red="0.83921569585800171" green="0.15294116735458374" blue="0.10980391502380371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.83899998664855957" green="0.15299999713897705" blue="0.10999999195337296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

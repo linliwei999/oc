@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestMasonry' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TestMasonry
+  #自动布局框架，原理是封装了系统提供的约束功能
+  #目的是使用更方便
+  #https://github.com/SnapKit/Masonry
+  pod 'Masonry'
+
+  target 'TestMasonryTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestMasonryUITests' do
+    # Pods for testing
+  end
+
+end
