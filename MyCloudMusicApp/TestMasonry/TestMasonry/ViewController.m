@@ -80,6 +80,23 @@
     self.primaryButton.layer.borderColor = [UIColor redColor].CGColor;
     [self.container addSubview: self.primaryButton];
     
+    #pragma mark - 第三方登录容器
+    UIView *otherLoginContanier = [UIView new];
+    otherLoginContanier.backgroundColor = [UIColor orangeColor];
+    [self.container addSubview:otherLoginContanier];
+    
+    //第三方登录按钮
+    NSMutableArray *otherLoginButtonViews = [NSMutableArray new];
+    for (NSInteger i = 0; i < 4; i++) {
+        UIButton *buttonView =  [UIButton new];
+        [buttonView setImage:[UIImage imageNamed:@"LoginQqSelected"] forState:UIControlStateNormal];
+        [otherLoginContanier addSubview:buttonView];
+        buttonView.backgroundColor = [UIColor greenColor];
+        [otherLoginButtonViews addObject:buttonView];
+    }
+
+    
+    
     #pragma mark - 协议
     //创建控件，如果要实现居中，那就要手动计算获取用自动布局
     UILabel *agrementLabelView = [[UILabel alloc] init];
@@ -100,15 +117,6 @@
         make.right.equalTo(self.view.mas_safeAreaLayoutGuideRight).offset(-16);
     }];
     
-    #pragma mark - 协议约束
-    // 根容器
-    [agrementLabelView mas_makeConstraints:^(MASConstraintMaker *make) {
-        // 距离底部
-        make.bottom.mas_equalTo(0);
-        // 水平居中
-        make.centerX.equalTo(self.view.mas_centerX);
-    }];
-    
     #pragma mark - 手机号登录按钮
     [self.phoneLoginButoon mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(self.container.mas_width);
@@ -123,7 +131,37 @@
         make.height.mas_equalTo(42);
         
         //底部，从协议顶部向上偏移
+        make.bottom.equalTo(otherLoginContanier.mas_top).offset(-30);
+    }];
+    
+    #pragma mark - 第三方登录容器
+    [otherLoginContanier mas_makeConstraints:^(MASConstraintMaker *make) {
+        //
+        make.width.equalTo(self.container.mas_width);
+        make.height.mas_equalTo(50);
         make.bottom.equalTo(agrementLabelView.mas_top).offset(-30);
+    }];
+    
+    #pragma mark - 第三方登录按钮
+    //水平排列,每个控件固定尺寸
+    //leadSpacing：左侧边距
+    //tailSpacing：右侧边距
+    [otherLoginButtonViews mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedItemLength:50 leadSpacing:0 tailSpacing:0];
+    
+    //同时设置多个控件约束
+    [otherLoginButtonViews mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(otherLoginContanier);
+//        make.size.equalTo(CGSizeMake(50, 50));
+        make.height.mas_equalTo(50);
+    }];
+    
+    
+    #pragma mark - 协议约束
+    [agrementLabelView mas_makeConstraints:^(MASConstraintMaker *make) {
+        // 距离底部
+        make.bottom.mas_equalTo(0);
+        // 水平居中
+        make.centerX.equalTo(self.view.mas_centerX);
     }];
     
 }
