@@ -82,21 +82,18 @@
     
     #pragma mark - 第三方登录容器
     UIView *otherLoginContanier = [UIView new];
-    otherLoginContanier.backgroundColor = [UIColor orangeColor];
+//    otherLoginContanier.backgroundColor = [UIColor orangeColor];
     [self.container addSubview:otherLoginContanier];
-    
     //第三方登录按钮
     NSMutableArray *otherLoginButtonViews = [NSMutableArray new];
     for (NSInteger i = 0; i < 4; i++) {
         UIButton *buttonView =  [UIButton new];
         [buttonView setImage:[UIImage imageNamed:@"LoginQqSelected"] forState:UIControlStateNormal];
         [otherLoginContanier addSubview:buttonView];
-        buttonView.backgroundColor = [UIColor greenColor];
+//        buttonView.backgroundColor = [UIColor greenColor];
         [otherLoginButtonViews addObject:buttonView];
     }
 
-    
-    
     #pragma mark - 协议
     //创建控件，如果要实现居中，那就要手动计算获取用自动布局
     UILabel *agrementLabelView = [[UILabel alloc] init];
@@ -150,10 +147,13 @@
     
     //同时设置多个控件约束
     [otherLoginButtonViews mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.equalTo(otherLoginContanier);
-//        make.size.equalTo(CGSizeMake(50, 50));
-        make.height.mas_equalTo(50);
+        make.centerY.equalTo(otherLoginContanier);
+//        make.size.mas_equalTo(CGSizeMake(50, 50));
+        make.height.mas_equalTo(50) ;
     }];
+    
+    // 水平排列，间距固定尺寸
+//    [otherLoginButtonViews mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:10 leadSpacing:0 tailSpacing:0];
     
     
     #pragma mark - 协议约束
