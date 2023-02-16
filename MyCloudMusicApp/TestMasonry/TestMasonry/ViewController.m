@@ -8,6 +8,7 @@
 #import <Masonry.h>
 
 #import "ViewController.h"
+#import "SettingController.h"
 
 @interface ViewController ()
 
@@ -168,6 +169,10 @@
 
 -(void)phoneLoginClick:(UIButton *)sender {
     NSLog(@"ViewController phoneLoginClick");
+    
+    // 跳转设置界面
+    SettingController *target = [SettingController new];
+    [self.navigationController pushViewController:target animated:YES];
 }
 
 /// 登录按钮点击
