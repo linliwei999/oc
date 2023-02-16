@@ -10,6 +10,7 @@
 		09AFB2450E7BE7230E33590F /* Pods_TestMasonry_TestMasonryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87AB384D0BA5074F0B8907 /* Pods_TestMasonry_TestMasonryUITests.framework */; };
 		379E17745F345DEFE4083108 /* Pods_TestMasonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50342C3DD644B23F959D227A /* Pods_TestMasonry.framework */; };
 		56651D30299E2EAA0086E280 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D2F299E2EAA0086E280 /* SettingController.m */; };
+		56651D34299E31CE0086E280 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D33299E31CE0086E280 /* SettingView.m */; };
 		56A559BA2977D3E300D286B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A559B92977D3E300D286B2 /* AppDelegate.m */; };
 		56A559BD2977D3E300D286B2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A559BC2977D3E300D286B2 /* SceneDelegate.m */; };
 		56A559C02977D3E300D286B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A559BF2977D3E300D286B2 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 		50342C3DD644B23F959D227A /* Pods_TestMasonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMasonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56651D2E299E2EAA0086E280 /* SettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
 		56651D2F299E2EAA0086E280 /* SettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		56651D32299E31CE0086E280 /* SettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		56651D33299E31CE0086E280 /* SettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
 		56A559B52977D3E300D286B2 /* TestMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A559B82977D3E300D286B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56A559B92977D3E300D286B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +111,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		56651D31299E31B10086E280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56651D32299E31CE0086E280 /* SettingView.h */,
+				56651D33299E31CE0086E280 /* SettingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		56A559AC2977D3E300D286B2 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +145,7 @@
 		56A559B72977D3E300D286B2 /* TestMasonry */ = {
 			isa = PBXGroup;
 			children = (
+				56651D31299E31B10086E280 /* View */,
 				56651D2D299E2E730086E280 /* Controller */,
 				56A559B82977D3E300D286B2 /* AppDelegate.h */,
 				56A559B92977D3E300D286B2 /* AppDelegate.m */,
@@ -432,6 +445,7 @@
 				56651D30299E2EAA0086E280 /* SettingController.m in Sources */,
 				56A559CB2977D3E500D286B2 /* main.m in Sources */,
 				56A559BD2977D3E300D286B2 /* SceneDelegate.m in Sources */,
+				56651D34299E31CE0086E280 /* SettingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
