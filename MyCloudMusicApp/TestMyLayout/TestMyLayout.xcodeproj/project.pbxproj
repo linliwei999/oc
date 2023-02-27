@@ -19,6 +19,8 @@
 		56651D5E299F24550086E280 /* TestMyLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D5D299F24550086E280 /* TestMyLayoutTests.m */; };
 		56651D68299F24550086E280 /* TestMyLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D67299F24550086E280 /* TestMyLayoutUITests.m */; };
 		56651D6A299F24550086E280 /* TestMyLayoutUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D69299F24550086E280 /* TestMyLayoutUITestsLaunchTests.m */; };
+		56651D7929A073A30086E280 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D7829A073A30086E280 /* SettingView.m */; };
+		56651D7D29A07E740086E280 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56651D7C29A07E740086E280 /* SettingController.m */; };
 		6E060067D7C69FE6DC56A7D7 /* Pods_TestMyLayout_TestMyLayoutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A2DE978780C28E83902178 /* Pods_TestMyLayout_TestMyLayoutUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,10 @@
 		56651D63299F24550086E280 /* TestMyLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMyLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56651D67299F24550086E280 /* TestMyLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMyLayoutUITests.m; sourceTree = "<group>"; };
 		56651D69299F24550086E280 /* TestMyLayoutUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMyLayoutUITestsLaunchTests.m; sourceTree = "<group>"; };
+		56651D7729A073A30086E280 /* SettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		56651D7829A073A30086E280 /* SettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
+		56651D7B29A07E740086E280 /* SettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		56651D7C29A07E740086E280 /* SettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
 		8F780C4C4055B96C64C9C840 /* Pods_TestMyLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C670E6F9DD97AB03E28F311 /* Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig"; path = "Target Support Files/Pods-TestMyLayout-TestMyLayoutUITests/Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B0C20B309D1465A3AAAD478E /* Pods_TestMyLayoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMyLayoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +127,8 @@
 		56651D40299F24530086E280 /* TestMyLayout */ = {
 			isa = PBXGroup;
 			children = (
+				56651D7A29A07E510086E280 /* Controller */,
+				56651D7629A073150086E280 /* View */,
 				56651D41299F24530086E280 /* AppDelegate.h */,
 				56651D42299F24530086E280 /* AppDelegate.m */,
 				56651D44299F24530086E280 /* SceneDelegate.h */,
@@ -153,6 +161,24 @@
 			path = TestMyLayoutUITests;
 			sourceTree = "<group>";
 		};
+		56651D7629A073150086E280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56651D7729A073A30086E280 /* SettingView.h */,
+				56651D7829A073A30086E280 /* SettingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56651D7A29A07E510086E280 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56651D7B29A07E740086E280 /* SettingController.h */,
+				56651D7C29A07E740086E280 /* SettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		570E043D360A931C3804F345 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +189,6 @@
 				D6CFA4C9693ED609DF24149C /* Pods-TestMyLayoutTests.debug.xcconfig */,
 				F7E48622C47DDCA225B50F9D /* Pods-TestMyLayoutTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -419,6 +444,8 @@
 				56651D43299F24530086E280 /* AppDelegate.m in Sources */,
 				56651D54299F24540086E280 /* main.m in Sources */,
 				56651D46299F24530086E280 /* SceneDelegate.m in Sources */,
+				56651D7D29A07E740086E280 /* SettingController.m in Sources */,
+				56651D7929A073A30086E280 /* SettingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

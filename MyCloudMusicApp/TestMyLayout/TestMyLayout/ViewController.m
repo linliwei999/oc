@@ -9,6 +9,7 @@
 #import <MyLayout/MyLayout.h>
 
 #import "ViewController.h"
+#import "SettingController.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) UIButton *phoneLoginButoon;
@@ -141,6 +142,8 @@
 
 -(void)phoneLoginClick:(UIButton *)sender {
     NSLog(@"ViewController phoneLoginClick");
+    SettingController *target = [SettingController new];
+    [self.navigationController pushViewController:target animated:YES];
 }
 
 /// 登录按钮点击

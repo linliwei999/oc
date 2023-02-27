@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046BA3EFB48FA6483A7193A8B7608C83 /* MyLayoutSizeInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EDEE0DEB3BD816A0D34F3FC7CE51BF /* MyLayoutSizeInner.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A466C957FBF934473F0EBCF6FBDC06A /* MyBorderline.h in Headers */ = {isa = PBXBuildFile; fileRef = 958A3066382ACC095BF43CCFEBDCD227 /* MyBorderline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10939B70FFBBC3FF34280856CDFF700A /* MyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE579A59E33F2C151CA2D9BCA7D7727 /* MyLayout-dummy.m */; };
+		13D654A778FE12FF475589E3D1FAC137 /* MyRelativeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5C829CD847D81DA20747737373A0D4 /* MyRelativeLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1825A2136F84C843E83163AD8C2BF617 /* MyLayoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65367BD9BA6B49870AF2BB9EE508D6 /* MyLayoutSize.m */; };
+		18C5AFE8C46AD73E1270EF74AB1D83FE /* MyLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3797AEE7DAE14CF3339E3D9697085F55 /* MyLayoutDelegate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1D464F7B967B4C21D56C805911695BA9 /* MyDimeScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 54242B7BD6D7A5C50793FA07F3DC3A6C /* MyDimeScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2036204759E7A06E7C96FA126DC6CC7F /* MyLayoutInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9776F717FE7F85AD39947F54F1AE1D /* MyLayoutInner.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		21FC0E838F4322DD2A963EC855073EE9 /* MyGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCCA3E5F3C766E70DE80394BE773DE6 /* MyGridLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		240EE2A051F0BE25A188F94C353539F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		296FC229FE018A083131891BA4765A39 /* MyLinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D7A91E4B6AE1CCAD9DF4CEF0DA111E /* MyLinearLayout.m */; };
+		2A2E5335B77BA25442F2A97D2475622C /* MyLayoutMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 68741790391CBB92194075B67698F435 /* MyLayoutMath.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		36028616E1F09C7C79AB3BFE8C2C0179 /* MyGridNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB33727551A2BD5803D5A2CCF63E18 /* MyGridNode.m */; };
+		407E7230432C437DD913DAAE3E5525A3 /* MyPathLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3153ADDAD957D3A227338935DAD6B1 /* MyPathLayout.m */; };
+		411E23683BCAFCBF78EF7D04ECA80526 /* Pods-TestMyLayout-TestMyLayoutUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BEBF58BEC7C22ED530EE7F24605D25 /* Pods-TestMyLayout-TestMyLayoutUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479166E815C1976D5B7EE19AD2AAAEF1 /* Pods-TestMyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2990BCE686DC59147CF06F98080E3688 /* Pods-TestMyLayout-dummy.m */; };
+		5459674348A38C18F234885E36BF0144 /* MyDimeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = D938A282CD3E1BCB5835CBF10308C0EF /* MyDimeScale.m */; };
+		5F6FED4C82C106AE024130015B263D68 /* MyLayoutSizeClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFEE2D09116350B3CC5D4AA8C941A07 /* MyLayoutSizeClass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		61D1724CD6629392D6580455928F834C /* MyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 498C0C965C23C0603FC807B604956067 /* MyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A9414033359E71EFB1D6E91B22DACF /* MyTableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 34814CD036D925B62EE08A961D3173BD /* MyTableLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0BCD37C912436100D8E20F97B3BD49 /* MyBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 103485220091CF3B02F157B6B1E4AF5B /* MyBaseLayout.m */; };
+		6DD99AD7B261E2C379F230A08DA0E390 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4EEAB9A634F5D85C2C9C6720C2A178 /* MyFlowLayout.m */; };
+		857730C73EC6DBFCAA4555FF646C3D43 /* MyLayoutPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EAC77EBF3DDFBA2F77FB6B84279A1 /* MyLayoutPos.m */; };
+		8A46731F1781C1B6392F144EA3DF65EA /* Pods-TestMyLayoutTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB5EC9764ED5CC11F8784CA06F5B72B /* Pods-TestMyLayoutTests-dummy.m */; };
+		94293E949CF646933B488550C41F5A39 /* MyRelativeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B88F4D8BE5F4E2796907913629721 /* MyRelativeLayout.m */; };
+		951EEA39B3996ED93D5EC1C4DB00D37E /* MyFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C84E49280496F88273E987618555146E /* MyFrameLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96BBDEE1EA9EBFCFB3091A4A78C00CD1 /* MyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DC6C88BEC6DF20960DE908027615B /* MyMaker.m */; };
+		96D31F00F8D8DF50852F9CF304EB0455 /* MyLayoutDef.h in Headers */ = {isa = PBXBuildFile; fileRef = F25748A9850AFD7D867E0C54E0F3774B /* MyLayoutDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D5E03B0E36B2C8BB3A0CAA7B302808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A8D4E4F50722404D530453C120AAB2A /* MyTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7739062D36B01184797E8228451DA6E9 /* MyTableLayout.m */; };
+		9D7ED6940EFA690D15E0001EFD04A83C /* MyFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45971C89133BF4C1E1E21DD884E54120 /* MyFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E8B49DC3F57C183D61F14B3576D0BC5 /* MyMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2133A625311CB0C5FB974EE78F6C7027 /* MyMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CCCF34F15581B3924762FE3284A3FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A76EA0042EA70F323C36DA3F9D9CD0E0 /* Pods-TestMyLayoutTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B73D6926816417BE2AA069D7F229A4F /* Pods-TestMyLayoutTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB7B96124EB27065DE4E0CE853FB2E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B16336267D95067C00C24DE51A7129F0 /* MyBaseLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C591FF9D9BE0F53862564BA6AA1A14DF /* MyBaseLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6B7861B940B01539AD02B873089CAB /* MyLayoutMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D78F791C340E81F44DD120A98D5C74 /* MyLayoutMath.m */; };
+		C0B770915163614CA6B85023AF37D015 /* MyLinearLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C12582E44616D8D919EE07F0D05473 /* MyLinearLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39F1A2B857D0316ECE88A6CFCB00156 /* MyLayoutSizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33F6F6AD6B4F8380B6E5441B704B4D /* MyLayoutSizeClass.m */; };
+		C6C3D1D1A3697A45B4AB03A4668409A0 /* MyGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66D5729022ECC3D04D448572882089 /* MyGridLayout.m */; };
+		CA3092DFF68F3E6C9A604B434D1C23A3 /* MyGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B482DCB9B78DF58A27D42CD6D3E632 /* MyGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC945B0BA21AE5E50D81B654289B0D3 /* MyFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C96DBF5F82080308488F7DCABE7B7B46 /* MyFloatLayout.m */; };
+		CACABD73C78EA1482F7ADA46A83CD40D /* MyGridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6C82DDA6B261FBC4C2D3E788736EA0 /* MyGridNode.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CAF9A10C45601DCE9D72197202C6E7F8 /* MyLayoutPos.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E475A19FAEE6E612EBA48F60310E1A /* MyLayoutPos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4568B346A8AC816D2A9BC82C4F656C /* MyFloatLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 003F45A1E0D603754D145D2CE8AD01D7 /* MyFloatLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC2FC355D1096FF7B4A89689707C809 /* MyLayoutPosInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFB60C6D1AD95D82BED8B58B016834D /* MyLayoutPosInner.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D030F7F82CD0B90FF5AEE5DBA7B3101F /* Pods-TestMyLayout-TestMyLayoutUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF05391C6B187357A89543369AEB8152 /* Pods-TestMyLayout-TestMyLayoutUITests-dummy.m */; };
+		D16BA7530DDF00693F6123B28ED10F67 /* MyLayoutSize.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A927870E13004B5F6A66F7E4DD4CE0 /* MyLayoutSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAA63A804A52DE4FA068DFE438B9B9F /* Pods-TestMyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CADC4BC4F4798BC9167FCE6DDF54F9DE /* Pods-TestMyLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E51BED5DC4722A037A87E10314180D /* MyBorderline.m in Sources */ = {isa = PBXBuildFile; fileRef = 2620267EF301CF392A1D23187FF1BC59 /* MyBorderline.m */; };
+		E14598B4E552E7D71D4500A3ACFB3100 /* MyLayoutDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E19C2AB9E3C6205DC130E3A81E397 /* MyLayoutDelegate.m */; };
+		E1ED83B84E9E1370C2D43C8C87EDACF8 /* MyPathLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23259D5E8B8769AFAF8F1B5E48B11F29 /* MyPathLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF23A47EB3C61A39370986409F8F5EE /* MyFlexLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 199279E7E289F30BFF097434DCCEB9DD /* MyFlexLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F407B95FF498C7C2F2BCC31511407E28 /* MyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D19D3F246C279770F488E016586220 /* MyLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F513392D8E715F6DFF2E3B660D519C4E /* MyFlexLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB13FE14A3036F2C866318618EB17E98 /* MyFlexLayout.m */; };
+		F9260DC5ADB8FA739C3E21DD37B3B488 /* MyFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E51AD979EB0EBCBC32CEAF22B0C829 /* MyFrameLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00DD78C26E9A4FA09580FDC7425E4F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317817FE5F034F48A0C0960FA361B34F;
+			remoteInfo = "Pods-TestMyLayout";
+		};
+		7198566B4B0634B927AB83239BD8FDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D7AEB6D1667A032B7D643480D82E4E;
+			remoteInfo = MyLayout;
+		};
+		F7DEA3E14664A007367085BBB8D229E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D7AEB6D1667A032B7D643480D82E4E;
+			remoteInfo = MyLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F45A1E0D603754D145D2CE8AD01D7 /* MyFloatLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFloatLayout.h; path = MyLayout/Lib/MyFloatLayout.h; sourceTree = "<group>"; };
+		030A28937821623E7A6FBBCBE7628B20 /* Pods-TestMyLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestMyLayout"; path = Pods_TestMyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E51AD979EB0EBCBC32CEAF22B0C829 /* MyFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFrameLayout.m; path = MyLayout/Lib/MyFrameLayout.m; sourceTree = "<group>"; };
+		08FC846EA63CD61254DE3C8D34D3CDD3 /* Pods-TestMyLayout-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestMyLayout-acknowledgements.markdown"; sourceTree = "<group>"; };
+		103485220091CF3B02F157B6B1E4AF5B /* MyBaseLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBaseLayout.m; path = MyLayout/Lib/MyBaseLayout.m; sourceTree = "<group>"; };
+		1042694F497D228A2C4316BA7A27E708 /* Pods-TestMyLayoutTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestMyLayoutTests.modulemap"; sourceTree = "<group>"; };
+		13D21707A7EC80AEC8FC19A761FC6CFE /* Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		199279E7E289F30BFF097434DCCEB9DD /* MyFlexLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlexLayout.h; path = MyLayout/Lib/MyFlexLayout.h; sourceTree = "<group>"; };
+		1A5C829CD847D81DA20747737373A0D4 /* MyRelativeLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyRelativeLayout.h; path = MyLayout/Lib/MyRelativeLayout.h; sourceTree = "<group>"; };
+		1B73D6926816417BE2AA069D7F229A4F /* Pods-TestMyLayoutTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestMyLayoutTests-umbrella.h"; sourceTree = "<group>"; };
+		1E4C94E3758F36335D6F83EEE53606D3 /* Pods-TestMyLayout-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestMyLayout-frameworks.sh"; sourceTree = "<group>"; };
+		2133A625311CB0C5FB974EE78F6C7027 /* MyMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyMaker.h; path = MyLayout/Lib/MyMaker.h; sourceTree = "<group>"; };
+		23259D5E8B8769AFAF8F1B5E48B11F29 /* MyPathLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyPathLayout.h; path = MyLayout/Lib/MyPathLayout.h; sourceTree = "<group>"; };
+		2620267EF301CF392A1D23187FF1BC59 /* MyBorderline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBorderline.m; path = MyLayout/Lib/MyBorderline.m; sourceTree = "<group>"; };
+		2990BCE686DC59147CF06F98080E3688 /* Pods-TestMyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestMyLayout-dummy.m"; sourceTree = "<group>"; };
+		2D9C05C45F92D64F3083B1245E999E7B /* Pods-TestMyLayout-TestMyLayoutUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestMyLayout-TestMyLayoutUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FBAB3795655D51101BB283882B0D791 /* MyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLayout.modulemap; sourceTree = "<group>"; };
+		34814CD036D925B62EE08A961D3173BD /* MyTableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyTableLayout.h; path = MyLayout/Lib/MyTableLayout.h; sourceTree = "<group>"; };
+		3797AEE7DAE14CF3339E3D9697085F55 /* MyLayoutDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDelegate.h; path = MyLayout/Lib/MyLayoutDelegate.h; sourceTree = "<group>"; };
+		3AC4119CB5312C449C0F8AAEE3758F93 /* MyLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLayout.release.xcconfig; sourceTree = "<group>"; };
+		3B4EEAB9A634F5D85C2C9C6720C2A178 /* MyFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlowLayout.m; path = MyLayout/Lib/MyFlowLayout.m; sourceTree = "<group>"; };
+		40EDEE0DEB3BD816A0D34F3FC7CE51BF /* MyLayoutSizeInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeInner.h; path = MyLayout/Lib/MyLayoutSizeInner.h; sourceTree = "<group>"; };
+		43EF8D831AA22108078EF05DD5C7D1C3 /* Pods-TestMyLayoutTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestMyLayoutTests"; path = Pods_TestMyLayoutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45971C89133BF4C1E1E21DD884E54120 /* MyFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlowLayout.h; path = MyLayout/Lib/MyFlowLayout.h; sourceTree = "<group>"; };
+		498C0C965C23C0603FC807B604956067 /* MyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayout.h; path = MyLayout/Lib/MyLayout.h; sourceTree = "<group>"; };
+		4AAB33727551A2BD5803D5A2CCF63E18 /* MyGridNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyGridNode.m; path = MyLayout/Lib/MyGridNode.m; sourceTree = "<group>"; };
+		4DEB4704BD7259DA9833F4B86B3964CF /* Pods-TestMyLayoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMyLayoutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9776F717FE7F85AD39947F54F1AE1D /* MyLayoutInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutInner.h; path = MyLayout/Lib/MyLayoutInner.h; sourceTree = "<group>"; };
+		507C2C3EB523D8D1E7037A582A9E9270 /* Pods-TestMyLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMyLayout-Info.plist"; sourceTree = "<group>"; };
+		54242B7BD6D7A5C50793FA07F3DC3A6C /* MyDimeScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyDimeScale.h; path = MyLayout/Lib/MyDimeScale.h; sourceTree = "<group>"; };
+		579B5C4EFEF946E06ADE74AACB8CDC4B /* MyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLayout-prefix.pch"; sourceTree = "<group>"; };
+		5B3153ADDAD957D3A227338935DAD6B1 /* MyPathLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyPathLayout.m; path = MyLayout/Lib/MyPathLayout.m; sourceTree = "<group>"; };
+		5C0FD2AAC8FED32F0C95DFB93C4A04DF /* MyLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLayout.debug.xcconfig; sourceTree = "<group>"; };
+		5C65367BD9BA6B49870AF2BB9EE508D6 /* MyLayoutSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSize.m; path = MyLayout/Lib/MyLayoutSize.m; sourceTree = "<group>"; };
+		61BEBF58BEC7C22ED530EE7F24605D25 /* Pods-TestMyLayout-TestMyLayoutUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestMyLayout-TestMyLayoutUITests-umbrella.h"; sourceTree = "<group>"; };
+		62A0AAFA364D0C8F80220386168D7398 /* Pods-TestMyLayoutTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMyLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		68741790391CBB92194075B67698F435 /* MyLayoutMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutMath.h; path = MyLayout/Lib/MyLayoutMath.h; sourceTree = "<group>"; };
+		6BCCA3E5F3C766E70DE80394BE773DE6 /* MyGridLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridLayout.h; path = MyLayout/Lib/MyGridLayout.h; sourceTree = "<group>"; };
+		6BF51DB1FA3AF47DAEA6775D867EB9AB /* MyLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyLayout; path = MyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7261D5E562E06C3F0292957D060691EF /* MyLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLayout-Info.plist"; sourceTree = "<group>"; };
+		72D78F791C340E81F44DD120A98D5C74 /* MyLayoutMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutMath.m; path = MyLayout/Lib/MyLayoutMath.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7457E9AA9E525DB8C89C914643849654 /* Pods-TestMyLayout-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMyLayout-acknowledgements.plist"; sourceTree = "<group>"; };
+		75561FA611E587D7B476281DA7F4890F /* Pods-TestMyLayoutTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestMyLayoutTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7739062D36B01184797E8228451DA6E9 /* MyTableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyTableLayout.m; path = MyLayout/Lib/MyTableLayout.m; sourceTree = "<group>"; };
+		7A5EAC77EBF3DDFBA2F77FB6B84279A1 /* MyLayoutPos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutPos.m; path = MyLayout/Lib/MyLayoutPos.m; sourceTree = "<group>"; };
+		7DFB60C6D1AD95D82BED8B58B016834D /* MyLayoutPosInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPosInner.h; path = MyLayout/Lib/MyLayoutPosInner.h; sourceTree = "<group>"; };
+		83C12582E44616D8D919EE07F0D05473 /* MyLinearLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLinearLayout.h; path = MyLayout/Lib/MyLinearLayout.h; sourceTree = "<group>"; };
+		87D482AB2D5D88853A1C289B41109F0E /* Pods-TestMyLayout-TestMyLayoutUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMyLayout-TestMyLayoutUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88B482DCB9B78DF58A27D42CD6D3E632 /* MyGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGrid.h; path = MyLayout/Lib/MyGrid.h; sourceTree = "<group>"; };
+		8BE49D28C1754C81839EB0EE84FCCF3C /* Pods-TestMyLayoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMyLayoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		958A3066382ACC095BF43CCFEBDCD227 /* MyBorderline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBorderline.h; path = MyLayout/Lib/MyBorderline.h; sourceTree = "<group>"; };
+		9BFEE2D09116350B3CC5D4AA8C941A07 /* MyLayoutSizeClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeClass.h; path = MyLayout/Lib/MyLayoutSizeClass.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6C82DDA6B261FBC4C2D3E788736EA0 /* MyGridNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridNode.h; path = MyLayout/Lib/MyGridNode.h; sourceTree = "<group>"; };
+		A5D19D3F246C279770F488E016586220 /* MyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLayout-umbrella.h"; sourceTree = "<group>"; };
+		AAB5EC9764ED5CC11F8784CA06F5B72B /* Pods-TestMyLayoutTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestMyLayoutTests-dummy.m"; sourceTree = "<group>"; };
+		B1D7A91E4B6AE1CCAD9DF4CEF0DA111E /* MyLinearLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLinearLayout.m; path = MyLayout/Lib/MyLinearLayout.m; sourceTree = "<group>"; };
+		B24D555B068DA1BAEF9968380A88996B /* Pods-TestMyLayout-TestMyLayoutUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestMyLayout-TestMyLayoutUITests"; path = Pods_TestMyLayout_TestMyLayoutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B466BBA34C47CEA3D47E01A234E5A961 /* Pods-TestMyLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMyLayout.release.xcconfig"; sourceTree = "<group>"; };
+		B50DC6C88BEC6DF20960DE908027615B /* MyMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyMaker.m; path = MyLayout/Lib/MyMaker.m; sourceTree = "<group>"; };
+		BCE579A59E33F2C151CA2D9BCA7D7727 /* MyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLayout-dummy.m"; sourceTree = "<group>"; };
+		C4EEAAFE93E9EB7A3AAC2C33A41415B3 /* Pods-TestMyLayout-TestMyLayoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMyLayout-TestMyLayoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C591FF9D9BE0F53862564BA6AA1A14DF /* MyBaseLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBaseLayout.h; path = MyLayout/Lib/MyBaseLayout.h; sourceTree = "<group>"; };
+		C84E49280496F88273E987618555146E /* MyFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFrameLayout.h; path = MyLayout/Lib/MyFrameLayout.h; sourceTree = "<group>"; };
+		C89B8E486D52B03C3F7EDC06A0EBA2CE /* Pods-TestMyLayoutTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMyLayoutTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C96DBF5F82080308488F7DCABE7B7B46 /* MyFloatLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFloatLayout.m; path = MyLayout/Lib/MyFloatLayout.m; sourceTree = "<group>"; };
+		CADC4BC4F4798BC9167FCE6DDF54F9DE /* Pods-TestMyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestMyLayout-umbrella.h"; sourceTree = "<group>"; };
+		CF5B99E3C92E9A4C279822F2883FE814 /* Pods-TestMyLayout-TestMyLayoutUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestMyLayout-TestMyLayoutUITests-Info.plist"; sourceTree = "<group>"; };
+		D024F4274BB3779415D5100CF7C007C5 /* Pods-TestMyLayout-TestMyLayoutUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestMyLayout-TestMyLayoutUITests.modulemap"; sourceTree = "<group>"; };
+		D938A282CD3E1BCB5835CBF10308C0EF /* MyDimeScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyDimeScale.m; path = MyLayout/Lib/MyDimeScale.m; sourceTree = "<group>"; };
+		DB13FE14A3036F2C866318618EB17E98 /* MyFlexLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlexLayout.m; path = MyLayout/Lib/MyFlexLayout.m; sourceTree = "<group>"; };
+		DB6B88F4D8BE5F4E2796907913629721 /* MyRelativeLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyRelativeLayout.m; path = MyLayout/Lib/MyRelativeLayout.m; sourceTree = "<group>"; };
+		DC051156B734FEC387E8A05A858D4079 /* Pods-TestMyLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestMyLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		DE66D5729022ECC3D04D448572882089 /* MyGridLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyGridLayout.m; path = MyLayout/Lib/MyGridLayout.m; sourceTree = "<group>"; };
+		DF05391C6B187357A89543369AEB8152 /* Pods-TestMyLayout-TestMyLayoutUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestMyLayout-TestMyLayoutUITests-dummy.m"; sourceTree = "<group>"; };
+		E29E19C2AB9E3C6205DC130E3A81E397 /* MyLayoutDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutDelegate.m; path = MyLayout/Lib/MyLayoutDelegate.m; sourceTree = "<group>"; };
+		E5A927870E13004B5F6A66F7E4DD4CE0 /* MyLayoutSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSize.h; path = MyLayout/Lib/MyLayoutSize.h; sourceTree = "<group>"; };
+		EA7E3961E4235F91CA334990F20E7A65 /* Pods-TestMyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestMyLayout.modulemap"; sourceTree = "<group>"; };
+		EC33F6F6AD6B4F8380B6E5441B704B4D /* MyLayoutSizeClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSizeClass.m; path = MyLayout/Lib/MyLayoutSizeClass.m; sourceTree = "<group>"; };
+		ECB7CA3017DB5D2E01FF33E994889509 /* Pods-TestMyLayout-TestMyLayoutUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestMyLayout-TestMyLayoutUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F25748A9850AFD7D867E0C54E0F3774B /* MyLayoutDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDef.h; path = MyLayout/Lib/MyLayoutDef.h; sourceTree = "<group>"; };
+		F8E475A19FAEE6E612EBA48F60310E1A /* MyLayoutPos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPos.h; path = MyLayout/Lib/MyLayoutPos.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D1341CC69F8D17E02EE77215AEA29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CCCF34F15581B3924762FE3284A3FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD050CADA1C9775431A339EA05E8890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB7B96124EB27065DE4E0CE853FB2E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FDF0B00648B530C6621175A4D50D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240EE2A051F0BE25A188F94C353539F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8913C93DDF807EA62C1834620D6EE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D5E03B0E36B2C8BB3A0CAA7B302808 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE872EAC26812A815B99FE485148FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6016A1135973C1BB6A0D1F1FBB483133 /* MyLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E19CD2BCA3174D0DB9EF2427A89D836 /* Pods-TestMyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E3961E4235F91CA334990F20E7A65 /* Pods-TestMyLayout.modulemap */,
+				08FC846EA63CD61254DE3C8D34D3CDD3 /* Pods-TestMyLayout-acknowledgements.markdown */,
+				7457E9AA9E525DB8C89C914643849654 /* Pods-TestMyLayout-acknowledgements.plist */,
+				2990BCE686DC59147CF06F98080E3688 /* Pods-TestMyLayout-dummy.m */,
+				1E4C94E3758F36335D6F83EEE53606D3 /* Pods-TestMyLayout-frameworks.sh */,
+				507C2C3EB523D8D1E7037A582A9E9270 /* Pods-TestMyLayout-Info.plist */,
+				CADC4BC4F4798BC9167FCE6DDF54F9DE /* Pods-TestMyLayout-umbrella.h */,
+				DC051156B734FEC387E8A05A858D4079 /* Pods-TestMyLayout.debug.xcconfig */,
+				B466BBA34C47CEA3D47E01A234E5A961 /* Pods-TestMyLayout.release.xcconfig */,
+			);
+			name = "Pods-TestMyLayout";
+			path = "Target Support Files/Pods-TestMyLayout";
+			sourceTree = "<group>";
+		};
+		5540068399EA11C074F971083905F561 /* Pods-TestMyLayout-TestMyLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D024F4274BB3779415D5100CF7C007C5 /* Pods-TestMyLayout-TestMyLayoutUITests.modulemap */,
+				2D9C05C45F92D64F3083B1245E999E7B /* Pods-TestMyLayout-TestMyLayoutUITests-acknowledgements.markdown */,
+				87D482AB2D5D88853A1C289B41109F0E /* Pods-TestMyLayout-TestMyLayoutUITests-acknowledgements.plist */,
+				DF05391C6B187357A89543369AEB8152 /* Pods-TestMyLayout-TestMyLayoutUITests-dummy.m */,
+				ECB7CA3017DB5D2E01FF33E994889509 /* Pods-TestMyLayout-TestMyLayoutUITests-frameworks.sh */,
+				CF5B99E3C92E9A4C279822F2883FE814 /* Pods-TestMyLayout-TestMyLayoutUITests-Info.plist */,
+				61BEBF58BEC7C22ED530EE7F24605D25 /* Pods-TestMyLayout-TestMyLayoutUITests-umbrella.h */,
+				C4EEAAFE93E9EB7A3AAC2C33A41415B3 /* Pods-TestMyLayout-TestMyLayoutUITests.debug.xcconfig */,
+				13D21707A7EC80AEC8FC19A761FC6CFE /* Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig */,
+			);
+			name = "Pods-TestMyLayout-TestMyLayoutUITests";
+			path = "Target Support Files/Pods-TestMyLayout-TestMyLayoutUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F6146428716DCC8C03605923587F6C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF51DB1FA3AF47DAEA6775D867EB9AB /* MyLayout */,
+				030A28937821623E7A6FBBCBE7628B20 /* Pods-TestMyLayout */,
+				B24D555B068DA1BAEF9968380A88996B /* Pods-TestMyLayout-TestMyLayoutUITests */,
+				43EF8D831AA22108078EF05DD5C7D1C3 /* Pods-TestMyLayoutTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6016A1135973C1BB6A0D1F1FBB483133 /* MyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C591FF9D9BE0F53862564BA6AA1A14DF /* MyBaseLayout.h */,
+				103485220091CF3B02F157B6B1E4AF5B /* MyBaseLayout.m */,
+				958A3066382ACC095BF43CCFEBDCD227 /* MyBorderline.h */,
+				2620267EF301CF392A1D23187FF1BC59 /* MyBorderline.m */,
+				54242B7BD6D7A5C50793FA07F3DC3A6C /* MyDimeScale.h */,
+				D938A282CD3E1BCB5835CBF10308C0EF /* MyDimeScale.m */,
+				199279E7E289F30BFF097434DCCEB9DD /* MyFlexLayout.h */,
+				DB13FE14A3036F2C866318618EB17E98 /* MyFlexLayout.m */,
+				003F45A1E0D603754D145D2CE8AD01D7 /* MyFloatLayout.h */,
+				C96DBF5F82080308488F7DCABE7B7B46 /* MyFloatLayout.m */,
+				45971C89133BF4C1E1E21DD884E54120 /* MyFlowLayout.h */,
+				3B4EEAB9A634F5D85C2C9C6720C2A178 /* MyFlowLayout.m */,
+				C84E49280496F88273E987618555146E /* MyFrameLayout.h */,
+				04E51AD979EB0EBCBC32CEAF22B0C829 /* MyFrameLayout.m */,
+				88B482DCB9B78DF58A27D42CD6D3E632 /* MyGrid.h */,
+				6BCCA3E5F3C766E70DE80394BE773DE6 /* MyGridLayout.h */,
+				DE66D5729022ECC3D04D448572882089 /* MyGridLayout.m */,
+				9F6C82DDA6B261FBC4C2D3E788736EA0 /* MyGridNode.h */,
+				4AAB33727551A2BD5803D5A2CCF63E18 /* MyGridNode.m */,
+				498C0C965C23C0603FC807B604956067 /* MyLayout.h */,
+				F25748A9850AFD7D867E0C54E0F3774B /* MyLayoutDef.h */,
+				3797AEE7DAE14CF3339E3D9697085F55 /* MyLayoutDelegate.h */,
+				E29E19C2AB9E3C6205DC130E3A81E397 /* MyLayoutDelegate.m */,
+				4F9776F717FE7F85AD39947F54F1AE1D /* MyLayoutInner.h */,
+				68741790391CBB92194075B67698F435 /* MyLayoutMath.h */,
+				72D78F791C340E81F44DD120A98D5C74 /* MyLayoutMath.m */,
+				F8E475A19FAEE6E612EBA48F60310E1A /* MyLayoutPos.h */,
+				7A5EAC77EBF3DDFBA2F77FB6B84279A1 /* MyLayoutPos.m */,
+				7DFB60C6D1AD95D82BED8B58B016834D /* MyLayoutPosInner.h */,
+				E5A927870E13004B5F6A66F7E4DD4CE0 /* MyLayoutSize.h */,
+				5C65367BD9BA6B49870AF2BB9EE508D6 /* MyLayoutSize.m */,
+				9BFEE2D09116350B3CC5D4AA8C941A07 /* MyLayoutSizeClass.h */,
+				EC33F6F6AD6B4F8380B6E5441B704B4D /* MyLayoutSizeClass.m */,
+				40EDEE0DEB3BD816A0D34F3FC7CE51BF /* MyLayoutSizeInner.h */,
+				83C12582E44616D8D919EE07F0D05473 /* MyLinearLayout.h */,
+				B1D7A91E4B6AE1CCAD9DF4CEF0DA111E /* MyLinearLayout.m */,
+				2133A625311CB0C5FB974EE78F6C7027 /* MyMaker.h */,
+				B50DC6C88BEC6DF20960DE908027615B /* MyMaker.m */,
+				23259D5E8B8769AFAF8F1B5E48B11F29 /* MyPathLayout.h */,
+				5B3153ADDAD957D3A227338935DAD6B1 /* MyPathLayout.m */,
+				1A5C829CD847D81DA20747737373A0D4 /* MyRelativeLayout.h */,
+				DB6B88F4D8BE5F4E2796907913629721 /* MyRelativeLayout.m */,
+				34814CD036D925B62EE08A961D3173BD /* MyTableLayout.h */,
+				7739062D36B01184797E8228451DA6E9 /* MyTableLayout.m */,
+				B844C4ACAC578ED1861A22A2E6C9A04D /* Support Files */,
+			);
+			name = MyLayout;
+			path = MyLayout;
+			sourceTree = "<group>";
+		};
+		801A5706E3B89B863EEA648C032AA49A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E19CD2BCA3174D0DB9EF2427A89D836 /* Pods-TestMyLayout */,
+				5540068399EA11C074F971083905F561 /* Pods-TestMyLayout-TestMyLayoutUITests */,
+				C2BCCC2CCDB5E1B24D676010A6224F36 /* Pods-TestMyLayoutTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B844C4ACAC578ED1861A22A2E6C9A04D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FBAB3795655D51101BB283882B0D791 /* MyLayout.modulemap */,
+				BCE579A59E33F2C151CA2D9BCA7D7727 /* MyLayout-dummy.m */,
+				7261D5E562E06C3F0292957D060691EF /* MyLayout-Info.plist */,
+				579B5C4EFEF946E06ADE74AACB8CDC4B /* MyLayout-prefix.pch */,
+				A5D19D3F246C279770F488E016586220 /* MyLayout-umbrella.h */,
+				5C0FD2AAC8FED32F0C95DFB93C4A04DF /* MyLayout.debug.xcconfig */,
+				3AC4119CB5312C449C0F8AAEE3758F93 /* MyLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MyLayout";
+			sourceTree = "<group>";
+		};
+		C2BCCC2CCDB5E1B24D676010A6224F36 /* Pods-TestMyLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				1042694F497D228A2C4316BA7A27E708 /* Pods-TestMyLayoutTests.modulemap */,
+				75561FA611E587D7B476281DA7F4890F /* Pods-TestMyLayoutTests-acknowledgements.markdown */,
+				C89B8E486D52B03C3F7EDC06A0EBA2CE /* Pods-TestMyLayoutTests-acknowledgements.plist */,
+				AAB5EC9764ED5CC11F8784CA06F5B72B /* Pods-TestMyLayoutTests-dummy.m */,
+				62A0AAFA364D0C8F80220386168D7398 /* Pods-TestMyLayoutTests-Info.plist */,
+				1B73D6926816417BE2AA069D7F229A4F /* Pods-TestMyLayoutTests-umbrella.h */,
+				4DEB4704BD7259DA9833F4B86B3964CF /* Pods-TestMyLayoutTests.debug.xcconfig */,
+				8BE49D28C1754C81839EB0EE84FCCF3C /* Pods-TestMyLayoutTests.release.xcconfig */,
+			);
+			name = "Pods-TestMyLayoutTests";
+			path = "Target Support Files/Pods-TestMyLayoutTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1CE872EAC26812A815B99FE485148FAF /* Pods */,
+				5F6146428716DCC8C03605923587F6C4 /* Products */,
+				801A5706E3B89B863EEA648C032AA49A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FF1D9F578CD0F4C69AF21A24AFC14AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16336267D95067C00C24DE51A7129F0 /* MyBaseLayout.h in Headers */,
+				0A466C957FBF934473F0EBCF6FBDC06A /* MyBorderline.h in Headers */,
+				1D464F7B967B4C21D56C805911695BA9 /* MyDimeScale.h in Headers */,
+				EEF23A47EB3C61A39370986409F8F5EE /* MyFlexLayout.h in Headers */,
+				CB4568B346A8AC816D2A9BC82C4F656C /* MyFloatLayout.h in Headers */,
+				9D7ED6940EFA690D15E0001EFD04A83C /* MyFlowLayout.h in Headers */,
+				951EEA39B3996ED93D5EC1C4DB00D37E /* MyFrameLayout.h in Headers */,
+				CA3092DFF68F3E6C9A604B434D1C23A3 /* MyGrid.h in Headers */,
+				21FC0E838F4322DD2A963EC855073EE9 /* MyGridLayout.h in Headers */,
+				CACABD73C78EA1482F7ADA46A83CD40D /* MyGridNode.h in Headers */,
+				61D1724CD6629392D6580455928F834C /* MyLayout.h in Headers */,
+				F407B95FF498C7C2F2BCC31511407E28 /* MyLayout-umbrella.h in Headers */,
+				96D31F00F8D8DF50852F9CF304EB0455 /* MyLayoutDef.h in Headers */,
+				18C5AFE8C46AD73E1270EF74AB1D83FE /* MyLayoutDelegate.h in Headers */,
+				2036204759E7A06E7C96FA126DC6CC7F /* MyLayoutInner.h in Headers */,
+				2A2E5335B77BA25442F2A97D2475622C /* MyLayoutMath.h in Headers */,
+				CAF9A10C45601DCE9D72197202C6E7F8 /* MyLayoutPos.h in Headers */,
+				CDC2FC355D1096FF7B4A89689707C809 /* MyLayoutPosInner.h in Headers */,
+				D16BA7530DDF00693F6123B28ED10F67 /* MyLayoutSize.h in Headers */,
+				5F6FED4C82C106AE024130015B263D68 /* MyLayoutSizeClass.h in Headers */,
+				046BA3EFB48FA6483A7193A8B7608C83 /* MyLayoutSizeInner.h in Headers */,
+				C0B770915163614CA6B85023AF37D015 /* MyLinearLayout.h in Headers */,
+				9E8B49DC3F57C183D61F14B3576D0BC5 /* MyMaker.h in Headers */,
+				E1ED83B84E9E1370C2D43C8C87EDACF8 /* MyPathLayout.h in Headers */,
+				13D654A778FE12FF475589E3D1FAC137 /* MyRelativeLayout.h in Headers */,
+				67A9414033359E71EFB1D6E91B22DACF /* MyTableLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E44626CE2EEB981D8C19C70BE223B15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76EA0042EA70F323C36DA3F9D9CD0E0 /* Pods-TestMyLayoutTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189D62A453E266EAA279A42FBCD15E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAA63A804A52DE4FA068DFE438B9B9F /* Pods-TestMyLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC32AD3DE0B047FB2B6D9E1AF825BC18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411E23683BCAFCBF78EF7D04ECA80526 /* Pods-TestMyLayout-TestMyLayoutUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		317817FE5F034F48A0C0960FA361B34F /* Pods-TestMyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717E5C69FF636FB8FC024AE2F460C03C /* Build configuration list for PBXNativeTarget "Pods-TestMyLayout" */;
+			buildPhases = (
+				F189D62A453E266EAA279A42FBCD15E6 /* Headers */,
+				89AC9FB0138312BAA86C4D198E4D198F /* Sources */,
+				68D1341CC69F8D17E02EE77215AEA29C /* Frameworks */,
+				FFEBA86057B44086DB9ED1D753709146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF8C169E6FE3868DE597088E9183530 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestMyLayout";
+			productName = Pods_TestMyLayout;
+			productReference = 030A28937821623E7A6FBBCBE7628B20 /* Pods-TestMyLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9ED40794FD588B17F4BDE79A4510366 /* Pods-TestMyLayout-TestMyLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6F8EE20A9C21B6AC40D71C8D09F1B8 /* Build configuration list for PBXNativeTarget "Pods-TestMyLayout-TestMyLayoutUITests" */;
+			buildPhases = (
+				FC32AD3DE0B047FB2B6D9E1AF825BC18 /* Headers */,
+				984A2F939C820263AC60278FF2616315 /* Sources */,
+				E8913C93DDF807EA62C1834620D6EE4F /* Frameworks */,
+				5C5F70357CAD305DDCA3272551188EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A576F162E602EC6ED183F7CB138DE69D /* PBXTargetDependency */,
+			);
+			name = "Pods-TestMyLayout-TestMyLayoutUITests";
+			productName = Pods_TestMyLayout_TestMyLayoutUITests;
+			productReference = B24D555B068DA1BAEF9968380A88996B /* Pods-TestMyLayout-TestMyLayoutUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6775BE53F015B9CEDE31EC0A6529DE3 /* Build configuration list for PBXNativeTarget "MyLayout" */;
+			buildPhases = (
+				0FF1D9F578CD0F4C69AF21A24AFC14AC /* Headers */,
+				A851A407A97F52E558132E3F36D35B23 /* Sources */,
+				DDD050CADA1C9775431A339EA05E8890 /* Frameworks */,
+				91E4691B3F53A1B88056C6BC5F8C54E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLayout;
+			productName = MyLayout;
+			productReference = 6BF51DB1FA3AF47DAEA6775D867EB9AB /* MyLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9CD1A1FBBD1A7AAC8013B55BE426695 /* Pods-TestMyLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53149A5B58FF74A468DF0658D20B9527 /* Build configuration list for PBXNativeTarget "Pods-TestMyLayoutTests" */;
+			buildPhases = (
+				6E44626CE2EEB981D8C19C70BE223B15 /* Headers */,
+				CBF02CE1FD70F51F0BBA43142B489ED5 /* Sources */,
+				E6FDF0B00648B530C6621175A4D50D2C /* Frameworks */,
+				96AE72F0AF6260A7953DFA189E8C25FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818A2AFEE338776A58517E6087C2576C /* PBXTargetDependency */,
+			);
+			name = "Pods-TestMyLayoutTests";
+			productName = Pods_TestMyLayoutTests;
+			productReference = 43EF8D831AA22108078EF05DD5C7D1C3 /* Pods-TestMyLayoutTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5F6146428716DCC8C03605923587F6C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */,
+				317817FE5F034F48A0C0960FA361B34F /* Pods-TestMyLayout */,
+				C9ED40794FD588B17F4BDE79A4510366 /* Pods-TestMyLayout-TestMyLayoutUITests */,
+				F9CD1A1FBBD1A7AAC8013B55BE426695 /* Pods-TestMyLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C5F70357CAD305DDCA3272551188EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E4691B3F53A1B88056C6BC5F8C54E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96AE72F0AF6260A7953DFA189E8C25FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEBA86057B44086DB9ED1D753709146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89AC9FB0138312BAA86C4D198E4D198F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479166E815C1976D5B7EE19AD2AAAEF1 /* Pods-TestMyLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984A2F939C820263AC60278FF2616315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D030F7F82CD0B90FF5AEE5DBA7B3101F /* Pods-TestMyLayout-TestMyLayoutUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A851A407A97F52E558132E3F36D35B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0BCD37C912436100D8E20F97B3BD49 /* MyBaseLayout.m in Sources */,
+				E0E51BED5DC4722A037A87E10314180D /* MyBorderline.m in Sources */,
+				5459674348A38C18F234885E36BF0144 /* MyDimeScale.m in Sources */,
+				F513392D8E715F6DFF2E3B660D519C4E /* MyFlexLayout.m in Sources */,
+				CAC945B0BA21AE5E50D81B654289B0D3 /* MyFloatLayout.m in Sources */,
+				6DD99AD7B261E2C379F230A08DA0E390 /* MyFlowLayout.m in Sources */,
+				F9260DC5ADB8FA739C3E21DD37B3B488 /* MyFrameLayout.m in Sources */,
+				C6C3D1D1A3697A45B4AB03A4668409A0 /* MyGridLayout.m in Sources */,
+				36028616E1F09C7C79AB3BFE8C2C0179 /* MyGridNode.m in Sources */,
+				10939B70FFBBC3FF34280856CDFF700A /* MyLayout-dummy.m in Sources */,
+				E14598B4E552E7D71D4500A3ACFB3100 /* MyLayoutDelegate.m in Sources */,
+				BC6B7861B940B01539AD02B873089CAB /* MyLayoutMath.m in Sources */,
+				857730C73EC6DBFCAA4555FF646C3D43 /* MyLayoutPos.m in Sources */,
+				1825A2136F84C843E83163AD8C2BF617 /* MyLayoutSize.m in Sources */,
+				C39F1A2B857D0316ECE88A6CFCB00156 /* MyLayoutSizeClass.m in Sources */,
+				296FC229FE018A083131891BA4765A39 /* MyLinearLayout.m in Sources */,
+				96BBDEE1EA9EBFCFB3091A4A78C00CD1 /* MyMaker.m in Sources */,
+				407E7230432C437DD913DAAE3E5525A3 /* MyPathLayout.m in Sources */,
+				94293E949CF646933B488550C41F5A39 /* MyRelativeLayout.m in Sources */,
+				9A8D4E4F50722404D530453C120AAB2A /* MyTableLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF02CE1FD70F51F0BBA43142B489ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A46731F1781C1B6392F144EA3DF65EA /* Pods-TestMyLayoutTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		818A2AFEE338776A58517E6087C2576C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestMyLayout";
+			target = 317817FE5F034F48A0C0960FA361B34F /* Pods-TestMyLayout */;
+			targetProxy = 00DD78C26E9A4FA09580FDC7425E4F42 /* PBXContainerItemProxy */;
+		};
+		9BF8C169E6FE3868DE597088E9183530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyLayout;
+			target = E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */;
+			targetProxy = 7198566B4B0634B927AB83239BD8FDD8 /* PBXContainerItemProxy */;
+		};
+		A576F162E602EC6ED183F7CB138DE69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyLayout;
+			target = E5D7AEB6D1667A032B7D643480D82E4E /* MyLayout */;
+			targetProxy = F7DEA3E14664A007367085BBB8D229E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12FDCEC2D9BD14D04E5F5D2851DF8CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEB4704BD7259DA9833F4B86B3964CF /* Pods-TestMyLayoutTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMyLayoutTests/Pods-TestMyLayoutTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMyLayoutTests/Pods-TestMyLayoutTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F9F461B8A4FF7781C2D81D50C7E06A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D21707A7EC80AEC8FC19A761FC6CFE /* Pods-TestMyLayout-TestMyLayoutUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMyLayout-TestMyLayoutUITests/Pods-TestMyLayout-TestMyLayoutUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMyLayout-TestMyLayoutUITests/Pods-TestMyLayout-TestMyLayoutUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4323368511A88B5E3C5E5E95DFD43E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC051156B734FEC387E8A05A858D4079 /* Pods-TestMyLayout.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMyLayout/Pods-TestMyLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMyLayout/Pods-TestMyLayout.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B85037077A89A634449A5BF057862B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC4119CB5312C449C0F8AAEE3758F93 /* MyLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyLayout/MyLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLayout/MyLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MyLayout/MyLayout.modulemap";
+				PRODUCT_MODULE_NAME = MyLayout;
+				PRODUCT_NAME = MyLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BADF408915F3226F7E13C3370C1FA524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EEAAFE93E9EB7A3AAC2C33A41415B3 /* Pods-TestMyLayout-TestMyLayoutUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMyLayout-TestMyLayoutUITests/Pods-TestMyLayout-TestMyLayoutUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMyLayout-TestMyLayoutUITests/Pods-TestMyLayout-TestMyLayoutUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD2C774DB7E91061DC63D678696942E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B466BBA34C47CEA3D47E01A234E5A961 /* Pods-TestMyLayout.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMyLayout/Pods-TestMyLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMyLayout/Pods-TestMyLayout.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C700485F93E53E53F396B674D180C0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE49D28C1754C81839EB0EE84FCCF3C /* Pods-TestMyLayoutTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestMyLayoutTests/Pods-TestMyLayoutTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestMyLayoutTests/Pods-TestMyLayoutTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC922D14B40E2469C8F2A66F0BB89FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0FD2AAC8FED32F0C95DFB93C4A04DF /* MyLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyLayout/MyLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyLayout/MyLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MyLayout/MyLayout.modulemap";
+				PRODUCT_MODULE_NAME = MyLayout;
+				PRODUCT_NAME = MyLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53149A5B58FF74A468DF0658D20B9527 /* Build configuration list for PBXNativeTarget "Pods-TestMyLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FDCEC2D9BD14D04E5F5D2851DF8CDB /* Debug */,
+				C700485F93E53E53F396B674D180C0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717E5C69FF636FB8FC024AE2F460C03C /* Build configuration list for PBXNativeTarget "Pods-TestMyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4323368511A88B5E3C5E5E95DFD43E7 /* Debug */,
+				BD2C774DB7E91061DC63D678696942E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6F8EE20A9C21B6AC40D71C8D09F1B8 /* Build configuration list for PBXNativeTarget "Pods-TestMyLayout-TestMyLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADF408915F3226F7E13C3370C1FA524 /* Debug */,
+				3F9F461B8A4FF7781C2D81D50C7E06A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6775BE53F015B9CEDE31EC0A6529DE3 /* Build configuration list for PBXNativeTarget "MyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC922D14B40E2469C8F2A66F0BB89FE5 /* Debug */,
+				B85037077A89A634449A5BF057862B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

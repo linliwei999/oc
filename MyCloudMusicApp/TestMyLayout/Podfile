@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestMyLayout' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TestMyLayout
+  #提供类似Android中更高层级的布局框架
+  #https://github.com/youngsoft/MyLinearLayout
+  pod 'MyLayout'
+
+  target 'TestMyLayoutTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TestMyLayoutUITests' do
+    # Pods for testing
+  end
+
+end
